@@ -11,7 +11,7 @@ export default function Home() {
     return (
         <div>
             <Head>
-                <title>YouTube For Developers</title>
+                <title>Education Ecosystem</title>
                 <link rel="icon" href="/youtube.png" />
                 <link
                     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:ital,wght@0,100;1,100&display=swap"
