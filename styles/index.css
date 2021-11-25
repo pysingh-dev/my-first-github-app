@@ -3,24 +3,45 @@
 @tailwind utilities;
 
 * {
-    font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 li {
-    @apply font-bold flex items-center text-xl mb-4 text-gray-700 leading-relaxed;
+  @apply font-bold flex items-center text-xl mb-4 text-gray-700 leading-relaxed;
 }
 
 p {
-    @apply text-lg mb-8 text-gray-700 leading-relaxed font-light;
+  @apply text-lg mb-8 text-gray-700 leading-relaxed font-light;
 }
 a {
-    @apply text-brand font-bold underline;
+  @apply text-brand font-bold underline;
 }
 
 strong {
-    @apply font-bold;
+  @apply font-bold;
 }
 
-.testimonial-img {
-    max-height: 200px;
+.error-image {
+  height: 700px;
+  width: 100%;
+  object-fit: contain;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
 }
